@@ -17,6 +17,17 @@ A Spring Boot application for managing employee records with basic CRUD operatio
 - Edit existing employee
 - Delete employee
 
+## Screenshots
+
+### Home Page - Employee List
+![Home Page](results/home-page.png)
+
+### Add Employee Form
+![Add Employee](results/add-employee.png)
+
+### Edit Employee Form
+![Edit Employee](results/edit-employee.png)
+
 ## Project Structure
 
 ```
@@ -73,6 +84,26 @@ src/
 ## Contributing
 
 Feel free to fork the repository and submit pull requests.
+
+## Test Results
+
+Latest test execution results from the project:
+
+```plaintext
+-------------------------------------------------------------------------------
+Test set: com.example.demo.DemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.38 s
+```
+
+All tests are passing successfully, demonstrating the reliability of the application.
+
+## Build Information
+
+The project uses Maven for build management. Build artifacts are stored in the `target/` directory:
+- Compiled classes: `target/classes/`
+- Test results: `target/surefire-reports/`
+- Packaged application: `target/demo-0.0.1-SNAPSHOT.jar`
 
 ## License
 
