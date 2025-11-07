@@ -17,10 +17,8 @@ on:
 jobs:
   build:
     permissions:
-      contents: read
+      contents: write
       security-events: write
-      actions: read
-      dependency-graph: write
 
     runs-on: ubuntu-latest
 
