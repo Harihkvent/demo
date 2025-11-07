@@ -1,0 +1,79 @@
+# Employee Management System
+
+A Spring Boot application for managing employee records with basic CRUD operations.
+
+## Technologies Used
+
+- Spring Boot
+- Spring Data JPA
+- Thymeleaf
+- H2 Database
+- Maven
+
+## Features
+
+- View all employees
+- Add new employee
+- Edit existing employee
+- Delete employee
+
+## Project Structure
+
+```
+src/
+├── main/
+│   ├── java/
+│   │   └── com/example/demo/
+│   │       ├── controller/
+│   │       │   └── HomeController.java
+│   │       ├── model/
+│   │       │   └── Employee.java
+│   │       ├── repository/
+│   │       │   └── EmployeeRepository.java
+│   │       └── DemoApplication.java
+│   └── resources/
+│       ├── templates/
+│       │   ├── add.html
+│       │   ├── edit.html
+│       │   └── home.html
+│       └── application.yaml
+```
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Harihkvent/demo.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd demo
+   ```
+
+3. Run the application using Maven:
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+
+4. Access the application in your web browser:
+   ```
+   http://localhost:8080
+   ```
+
+## API Endpoints
+
+- `GET /` - View all employees
+- `GET /add` - Show add employee form
+- `POST /add` - Add a new employee
+- `GET /edit/{id}` - Show edit employee form
+- `POST /edit/{id}` - Update an employee
+- `GET /delete/{id}` - Delete an employee
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
